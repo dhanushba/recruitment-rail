@@ -10,7 +10,7 @@ import pandas as pd
 load_dotenv()
 
 # Set API Key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCgswykmyaEWSVElC6K13zAGdKafgamCGM"  # Replace with your API key
+os.environ['GOOGLE_API_KEY'] = ""  # Replace with your API key
 
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
